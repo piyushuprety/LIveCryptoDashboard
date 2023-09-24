@@ -1,0 +1,47 @@
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(#4285F4, #3C83F9);
+  justify-content: space-between;
+  height: 100vh;
+  padding: 3.2rem 2.62rem;
+  color: white;
+  border-radius: 1.25rem;;
+  width: 16rem;
+}
+
+.Dashboard-logo{
+  color: #FFF;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 3.5rem ;
+}
+
+.sections{
+  display: flex;
+  flex-direction: column;
+  font-size: 1.125rem;
+  gap: 1.6rem;
+}
+
+.withoutLogo{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.2rem;
+}
+
+.help, .contact{
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.Dash-option, .Trans-option, .Sche-option, .User-option, .Setting-option {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}

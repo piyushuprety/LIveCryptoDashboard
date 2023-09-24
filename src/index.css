@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body.active-modal {
+    overflow-y: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#SignInRoot{
+ display: flex;
+ flex-direction: row;
+}
+
+#Dashboard{
+  display: flex;
+  flex-direction: row;
+  padding: 2.1rem 2.5rem;
+  gap:4rem
+}
+
+@media screen and (max-width: 500px)   {
+#SignInRoot {
+    flex-direction: column;
+  }
+  #LeftSide{
+    padding-left: 2rem;
+    overflow: hidden;
+    width: 112vw;
+    gap:0px;
+    justify-content: space-between;
+  }
+  #RightSide{
+    margin-top: 2px;
+    width: 112vw;
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-left: 20px;
+  }
+  #inside-box{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+}
+}
+@media screen and (min-width: 500px) and (max-width: 900px) {
+  #SignInRoot {
+    flex-direction: column;
+    background-color: rgb(62,129,241);
+  }
+  #LeftSide{
+    padding-left: 0;
+    padding-right: 0;
+    background-image: none;
+    overflow: hidden;
+    gap:0px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #RightSide{
+    margin-top: 2px;
+    width: 100vw;
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    align-items: center;
+  }
+  #inside-box{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #logo{
+    margin-left: 3rem;
+  }
+  #name{
+    margin-left: 4rem;
+  }
+}
+

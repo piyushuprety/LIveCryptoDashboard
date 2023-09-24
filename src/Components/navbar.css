@@ -1,0 +1,24 @@
+#navbar{
+    padding-top: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.search_And_user{
+     display: flex;
+     align-items: center;
+}
+#search{
+    display: flex;
+}
+#find{
+    padding: 0.38rem 0.94rem;
+}
+#SearchIcon{
+    margin: 0px;
+    margin-left: -29px;
+    margin-right: 1.86rem;
+}
+.bell{
+    margin-right: 1.73rem;
+}

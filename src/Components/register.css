@@ -1,0 +1,19 @@
+
+#ButtonPrimary{
+    width: 21rem;
+}
+#btn-text-sign{
+    padding-left: 13px;
+}
+#Signin-with-google :hover  {
+    background-color: #e5ecf9;
+}
+#Signin-with-apple :hover  {
+    background-color: #e5ecf9;
+}
+#ButtonPrimary:hover{
+    background-color: #12316b;
+}
+#registerHere:hover{
+    color: black;
+}

@@ -1,0 +1,66 @@
+.barContainer{
+    margin-top: 2.2rem;
+    /* width: 62.5rem;
+    height: 22.4375rem; */
+    padding: 1.87rem 2.5rem;
+    flex-shrink: 0;
+    border: 2px solid #e0e0e0;
+    border-radius: 25px;
+    box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.header{
+    margin-bottom: 1.2rem;
+}
+.header h1{
+    color: #000;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.name{
+    color:  #858585;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.legend{
+    color: #000;
+    font-family: Lato;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    gap: 2.19rem;
+    padding-right: 3.15rem;
+}
+.name, .legend , .L-one, .L-two{
+    display: flex;
+}
+.name{
+    justify-content: space-between;
+}
+
+.L-one{
+    align-items: center;
+    gap: 0.5rem
+}
+.L-color-one{
+    background: #E9A0A0;
+    border-radius: 50%;
+    height: 8px;
+    width: 8px;
+}
+
+.L-two{
+    align-items: center;
+    gap: 0.5rem
+}
+.L-color-two{
+    background: #9BDD7C;
+    border-radius: 50%;
+    height: 8px;
+    width: 8px;
+}

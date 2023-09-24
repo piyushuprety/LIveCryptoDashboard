@@ -1,0 +1,139 @@
+.btn-modal {
+  padding: 10px 20px;
+  display: block;
+  margin: 100px auto 0;
+  font-size: 18px;
+}
+
+.modal,
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.overlay {
+  background: rgba(49, 49, 49, 0.8);
+}
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #f1f1f1;
+  padding: 14px 28px;
+  width: 30rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 25px;
+  box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 7px;
+}
+
+.selectionOfForm {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+.Form1-B {
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid;
+  border-color: #3f84f8;
+  width: 11rem;
+  color: var(--light-bulma, #231f20);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Figtree;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5rem; /* 150% */
+}
+.Form1-C {
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid;
+  border-color: #d9d9d9;
+  width: 11rem;
+  color: var(--light-bulma, #231f20);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Figtree;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5rem; /* 150% */
+}
+.btn-next {
+  background-color: #3f84f8;
+  color: white;
+  position: absolute;
+  right: 50px;
+  bottom: 17px;
+  padding: 7px;
+  border-radius: 9px;
+}
+.btn-back {
+  background-color: #3f84f8;
+  color: white;
+  position: absolute;
+  right:110px;
+  bottom: 17px;
+  padding: 7px;
+  border-radius: 9px;
+}
+.Form2-B {
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid;
+  border-color: #d9d9d9;
+  width: 11rem;
+  color: var(--light-bulma, #231f20);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Figtree;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5rem; /* 150% */
+}
+.Form2-C {
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid;
+  border-color: #3f84f8;
+  width: 11rem;
+  color: var(--light-bulma, #231f20);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Figtree;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5rem; /* 150% */
+}
+
+.form {
+  display: flex;
+  padding: 1.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.6rem;
+  flex-shrink: 0;
+  margin-bottom: 1.3rem;
+}
+.inside-form {
+  display: flex;
+  padding: 0.5rem;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 1.6rem;
+}
